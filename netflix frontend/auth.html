@@ -1,0 +1,36 @@
+<html>
+<head>
+
+<title>Sonic TV</title>
+<link rel="stylesheet" href="auth.css">
+<link rel="shortcut icon" href="http://cdn.onlinewebfonts.com/svg/img_347593.png" type="image/x-icon">
+</head>
+
+<body>
+	<center><h1>Sonic TV</h1></center>
+<script type="text/javascript">
+function display(form){
+if (form.username.value=="sonic") { 
+		if (form.password.value=="sonic") {              
+										location="n.html" 
+											} else {
+													alert("Invalid Password")
+													console.log('invalid credentials')
+													}
+								} else {  alert("Invalid Username")
+										}
+						}
+						</script>
+
+
+
+	<div class="se-pre-con"></div>
+<form align="center" id="auth">
+<input type="text" name="username" id="user" placeholder="username..."/><br><br>
+<input type="password" name="password" id="pw" placeholder="password..."/><br><br>
+<input type="button" value="Login" onClick="display(this.form)" id="button"  />
+
+</form>
+
+</body>
+</html>

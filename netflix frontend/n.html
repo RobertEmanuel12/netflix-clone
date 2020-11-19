@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="http://cdn.onlinewebfonts.com/svg/img_347593.png" type="image/x-icon">
+    
+    <link rel="stylesheet" href="n.css">
+    <title>Sonic TV</title>
+    <style>
+        .flex-container {
+          display: flex;
+          background-color: black;
+        }
+        
+        .flex-container > div {
+          background-color: red;
+          margin: 10px;
+          padding: 20px;
+          font-size: 30px;
+          color: white;
+          font-family: cursive;
+        }
+    
+        </style>
+</head>
+<body>
+  <h1 id="popular">Sonic TV</h1>
+  <center><h1 id="popular">Popular</h1></center>
+<div class="flex-container">
+<div><iframe width="400" height="400" src="https://www.youtube.com/embed/yV0fPaLM010?rel=0&modestbranding=1&autohide=1&showinfo=0&controls=0" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>Held Up  COMEDY</div>
+<div><iframe width="400" height="400" src="https://www.youtube.com/embed/TlflQmjlRxQ?rel=0&modestbranding=1&autohide=1&showinfo=0&controls=0" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe> The Magic Of Belle Isle  Independent, Comedy, Drama</div>
+<div><iframe width="400" height="400" src="https://www.youtube.com/embed/8vcIxykgBo4?rel=0&modestbranding=1&autohide=1&showinfo=0&controls=0" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>The Reef Made For Kids</div>
+
+</div>
+
+<div>
+<button id="btn">Report</button>
+<button id="btnd">Like It</button>
+</div>
+<script>
+  document.getElementById("btn").onclick = function() {myFunction()};
+  
+  function myFunction() {
+    alert('Thanks For the feedback')
+    console.log('no like; report')
+  }
+  </script>
+  <script>
+    document.getElementById("btnd").onclick = function() {myFunction()};
+    
+    function myFunction() {
+      alert('Thanks For the feedback')
+      console.log('like it')
+    }
+    </script>
+</body>
+</html>
